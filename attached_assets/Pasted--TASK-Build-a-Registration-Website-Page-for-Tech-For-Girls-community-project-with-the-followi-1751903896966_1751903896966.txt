@@ -1,0 +1,85 @@
+🔹 TASK:
+Build a *Registration Website Page* for “Tech For Girls” community project with the following features:
+
+---
+
+✅ Registration Form with these Fields:
+- Name (Text Input)
+- Phone Number (Number Input)
+- Email ID (Email Input)
+- College/Department (Text Input or Dropdown)
+
+---
+
+✅ WhatsApp Share Button with Click Counter:
+- A button labeled *“Share on WhatsApp”*.
+- On clicking:
+  - Opens WhatsApp with pre-filled message:
+    "Hey Buddy, Join Tech For Girls Community"
+  - Increments and displays a click counter like:
+    “Click count: 2/5”.
+- After 5 clicks:
+  - Show message: “Sharing complete. Please continue.”
+  - Prevent further count increases.
+
+---
+
+✅ Screenshot Upload:
+- Add a *file upload input* for users to upload screenshot files (e.g., resume, photo).
+
+---
+
+✅ Submit Button:
+- Collect and validate:
+  - All form inputs
+  - Uploaded file
+- Submission should only proceed *after sharing counter reaches 5/5*.
+- After successful submission:
+  - Disable the form and buttons.
+  - Show success message:
+    “🎉 Your submission has been recorded. Thanks for being part of Tech for Girls!”
+- Save submission flag in *localStorage* to prevent re-submission even after page refresh.
+
+---
+
+✅ Data Storage:
+- Send the submitted data (Name, Phone, Email, College, Screenshot Link) to a *Google Sheet* using *Google Apps Script Web App*.
+- You can integrate this using fetch API or AJAX.
+- Refer to YouTube tutorials for setting up Google Apps Script if needed.
+
+---
+
+✅ UI/UX Design Requirements:
+- Clean, modern, and attractive UI.
+- Use CSS for styling (fonts, colors, spacing, layout).
+- You can take UI inspiration from:
+  - Dribbble
+  - Behance
+  - Google search
+- Creativity counts:
+  - Add subtle animations, hover effects, and a modern layout.
+
+---
+
+✅ Hosting & GitHub:
+- Create a GitHub Repository for the project.
+- Commit your code step by step with clear commit messages.
+- Host the project via *GitHub Pages* and share the live link.
+
+---
+
+✅ Important:
+- Ensure only one submission per user (using localStorage).
+- Use neat and well-commented code.
+- It must work smoothly on desktop and mobile.
+
+---
+
+🎯 GOAL:
+Provide the full solution including:
+- HTML
+- CSS
+- JavaScript (for logic, validation, localStorage, counter, submission)
+- Google Apps Script example (for saving to Google Sheets)
+
+Also, suggest a basic folder structure for organizing the project.
